@@ -72,13 +72,16 @@ const config = {
           src: 'img/minh.ico',
         },
         items: [
+          {to: '/cv', label: 'CV', position: 'left'},
+          {to: '/publications', label: 'Publications', position: 'left'},
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Tutorials',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/projects', label: 'Projects', position: 'left'},
           {
             href: 'https://github.com/minhna1112',
             label: 'GitHub',
