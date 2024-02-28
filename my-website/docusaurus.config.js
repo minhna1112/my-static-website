@@ -102,12 +102,16 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: '🎓 Google Scholar',
+                href: 'https://scholar.google.com/citations?user=xetJ05YAAAAJ&hl=en',
               },
               {
-                label: 'Discord',
+                label: 'Linkedin',
                 href: 'https://discordapp.com/invite/docusaurus',
+                logo: {
+                  alt: 'Linkedin logo',
+                  src: 'img/linkedin.svg',
+                },
               },
               {
                 label: 'Twitter',
