@@ -106,16 +106,12 @@ const config = {
                 href: 'https://scholar.google.com/citations?user=xetJ05YAAAAJ&hl=en',
               },
               {
-                label: 'Linkedin',
-                href: 'https://discordapp.com/invite/docusaurus',
-                logo: {
-                  alt: 'Linkedin logo',
-                  src: 'img/linkedin.svg',
-                },
+                label: '👔 Linkedin',
+                href: 'https://www.linkedin.com/in/anh-minh-nguyen-44016717b/',
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: '🐦 Twitter',
+                href: 'https://twitter.com/MinhN2804',
               },
             ],
           },
