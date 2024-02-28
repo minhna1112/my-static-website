@@ -5,7 +5,7 @@
  */
 
 /* You can override the default Infima variables here. */
-:root {
+/* :root {
   --ifm-color-primary: #2e8555;
   --ifm-color-primary-dark: #29784c;
   --ifm-color-primary-darker: #277148;
@@ -15,10 +15,10 @@
   --ifm-color-primary-lightest: #3cad6e;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
-}
+} */
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme='dark'] {
+/* [data-theme='dark'] {
   --ifm-color-primary: #25c2a0;
   --ifm-color-primary-dark: #21af90;
   --ifm-color-primary-darker: #1fa588;
@@ -26,5 +26,30 @@
   --ifm-color-primary-light: #29d5b0;
   --ifm-color-primary-lighter: #32d8b4;
   --ifm-color-primary-lightest: #4fddbf;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+} */
+
+
+:root {
+  --ifm-color-primary: #e6862d; /* Changed from #2e8555 to a sun-like orange */
+  --ifm-color-primary-dark: #cc6e22; /* Changed from #29784c to a darker shade of orange */
+  --ifm-color-primary-darker: #b85e1f; /* Changed from #277148 to an even darker shade of orange */
+  --ifm-color-primary-darkest: #a34e1a; /* Changed from #205d3b to a darkest orange */
+  --ifm-color-primary-light: #ed9e4c; /* Changed from #33925d to a lighter orange */
+  --ifm-color-primary-lighter: #f2b066; /* Changed from #359962 to an even lighter orange */
+  --ifm-color-primary-lightest: #f7c285; /* Changed from #3cad6e to the lightest orange */
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #ffab40; /* Changed from #25c2a0 to a vibrant yellow-orange */
+  --ifm-color-primary-dark: #e69538; /* Changed from #21af90 to a darker yellow-orange */
+  --ifm-color-primary-darker: #cc7e30; /* Changed from #1fa588 to an even darker yellow-orange */
+  --ifm-color-primary-darkest: #b36829; /* Changed from #1a8870 to the darkest yellow-orange */
+  --ifm-color-primary-light: #ffa733; /* Changed from #29d5b0 to a lighter vibrant yellow */
+  --ifm-color-primary-lighter: #ffbb66; /* Changed from #32d8b4 to an even lighter yellow */
+  --ifm-color-primary-lightest: #ffcc99; /* Changed from #4fddbf to the lightest yellow */
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
