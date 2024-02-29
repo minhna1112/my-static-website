@@ -92,47 +92,6 @@ const config = {
       },
       footer: {
         style: 'dark',
-        links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: '🎓 Google Scholar',
-                href: 'https://scholar.google.com/citations?user=xetJ05YAAAAJ&hl=en',
-              },
-              {
-                label: '👔 Linkedin',
-                href: 'https://www.linkedin.com/in/anh-minh-nguyen-44016717b/',
-              },
-              {
-                label: '🐦 Twitter',
-                href: 'https://twitter.com/MinhN2804',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/minhna1112',
-              },
-            ],
-          },
-        ],
         copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
       },
       prism: {
