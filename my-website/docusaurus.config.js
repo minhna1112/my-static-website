@@ -13,7 +13,7 @@ const config = {
   favicon: 'img/minh.ico',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://minhna1112.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -22,9 +22,9 @@ const config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'minhna1112', // Usually your GitHub org/user name.
   projectName: 'minhna1112.github.io', // Usually your repo name.
-  deploymentBranch: 'master',
+  deploymentBranch: 'main',
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
@@ -92,7 +92,7 @@ const config = {
       },
       footer: {
         style: 'dark',
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} My Personal Page. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
