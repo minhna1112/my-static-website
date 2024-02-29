@@ -35,6 +35,11 @@ const CustomIconLinks = () => {
         title="Twitter"
         iconClassName="fab fa-twitter-square ai-3x"
       />
+      <ExternalLinkWithIcon
+        href="https://orcid.org/0009-0005-5091-7401"
+        title="orcID"
+        iconClassName="ai ai ai-orcid-square ai-3x"
+      />
     </div>
   );
 };
