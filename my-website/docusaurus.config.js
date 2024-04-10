@@ -74,6 +74,7 @@ const config = {
         },
         items: [
           {to: '/cv', label: 'CV', position: 'left'},
+          {to: '/timeline', label: 'TimeLine', position: 'left'},
           {to: '/publications', label: 'Publications', position: 'left'},
           {
             type: 'docSidebar',
