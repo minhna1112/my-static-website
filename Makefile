@@ -9,10 +9,13 @@ run-image:
 	docker run -p 3000:3000 -v $(pwd)/docusaurus:/workspace ${IMAGE_NAME}
 
 build:
-	npm run build
+	cd my-website && npm run build
+
+start:
+	cd my-website && npm run start
 
 serve:
-	npm run serve
+	cd my-website && npm run serve
 
 deploy:
 	make build
