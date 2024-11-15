@@ -8,6 +8,9 @@ build-image:
 run-image:
 	docker run -p 3000:3000 -v $(pwd)/docusaurus:/workspace ${IMAGE_NAME}
 
+install:
+	cd my-website && npm install
+
 build:
 	cd my-website && npm run build
 
