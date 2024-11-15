@@ -1,6 +1,6 @@
 import React from 'react';
 import Layout from '@theme/Layout';
-
+import './index.module.css'
 export default function MyReactPage() {
   return (
     <Layout>
@@ -12,8 +12,26 @@ export default function MyReactPage() {
             <div>
               <h3>Started my PhD at University College Dublin</h3>
               <p>Back to academia 🎓</p>
-              <p>Supervised by Dr. Liliana Pasquale and Dr. Alzubair Hassan </p>
-            </div>
+              <p>
+                Supervised by{' '}
+                <span
+                  className="link"
+                  onClick={() =>
+                    window.location.href = 'https://people.ucd.ie/liliana.pasquale'
+                  }
+                >
+                  Dr. Liliana Pasquale
+                </span>{' '}
+                and{' '}
+                <span
+                  className="link"
+                  onClick={() =>
+                    window.location.href = 'https://people.ucd.ie/alzubair.hassan'
+                  }
+                >
+                  Dr. Alzubair Hassan
+                </span>
+              </p>            </div>
             <div className='icon'>
               <img src="/img/ucd-2.png"></img>
             </div>
