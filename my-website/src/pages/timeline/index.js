@@ -8,16 +8,26 @@ export default function MyReactPage() {
         <h1>Timeline</h1>
 
         <ul class="timeline">
-          <li class="event" data-date="65Million B.C.">
+          <li class="event" data-date="September 2024">
             <div>
-              <h3>Dinosaurs Roamed the Earth</h3>
-              <p>RAWWWWWWRRR 🐢🦂</p>
+              <h3>Started my PhD at University College Dublin</h3>
+              <p>Back to academia 🎓</p>
+              <p>Supervised by Dr. Liliana Pasquale and Dr. Alzubair Hassan </p>
             </div>
             <div className='icon'>
-              <img src="https://cdn.pixabay.com/photo/2024/03/31/02/11/python-8665904_1280.png"></img>
+              <img src="/img/ucd-2.png"></img>
             </div>
-            
+            <div>
+              <h3>Researcher at LERO </h3>
+              <p>The SFI Research Centre for Software</p>
+              <p>Ivestigating the association between AI and Software Security</p>
+
+            </div>
+            <div className='icon'>
+              <img src="/img/lero_centre_logo.jpeg"></img>
+            </div>
           </li>
+
           <li class="event" data-date="2005">
             <div>
               <h3>Creative Component Launched</h3>
