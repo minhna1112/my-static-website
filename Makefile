@@ -19,4 +19,4 @@ serve:
 
 deploy:
 	make build
-	yarn deploy
+	cd my-website && yarn deploy
