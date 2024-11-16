@@ -46,20 +46,23 @@ export default function MyReactPage() {
             </div>
           </li>
 
-          <li class="event" data-date="2005">
+          <li class="event" data-date="April 2024">
             <div>
-              <h3>Creative Component Launched</h3>
-              <p>"We can be all things to all people!" 📣</p>
-              <p>"We can be all things to all people!" 📣</p>
-              <p>"We can be all things to all people!" 📣</p>
-              <p>"We can be all things to all people!" 📣</p>
-              <p>"We can be all things to all people!" 📣</p>
-              <p>"We can be all things to all people!" 📣</p>
-              <p>"We can be all things to all people!" 📣</p>
-              <p>"We can be all things to all people!" 📣</p>
+              <h3>ICSE 2024</h3>
+              <p>Attended the 46th International Conference on Software Engineering 📣</p>
+              <p>Presented at the 1st ACM/IEEE Workshop on IDEs 📣</p>
+              <p>Our position paper {''}
+                <span
+                  className="link"
+                  onClick={() =>
+                    window.location.href = 'https://dl.acm.org/doi/10.1145/3643796.3648467'
+                  }
+                >
+                  "Envisioning the Next-Generation AI Coding Assistants: Insights & Proposals" won the Best Paper Award
+                </span>{''} 📣</p>
             </div>
             <div className='icon'>
-              <img src="https://cdn.pixabay.com/photo/2024/03/31/02/11/python-8665904_1280.png"></img>
+              <img src="/img/icse-2.jpg"></img>
             </div>
           </li>
           <li class="event" id="date" data-date="2009">
