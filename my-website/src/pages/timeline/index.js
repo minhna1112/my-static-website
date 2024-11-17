@@ -43,7 +43,7 @@ export default function MyReactPage() {
               <p>Published a couple of papers under guidance from supportive mentors in 🇦🇹, 🇩🇰 and 🇯🇵</p>
               <p>Tried to create racing drones that can go fully auto-pilot ... </p>    
               <p>... but end up leaving the project to my entrusted brother Dung Tran 😅</p>
-              <p>... as I was bored of Controlled Experiment Research, and wanted to have a few taste of ....</p>    
+              <p>... as I was bored of Controlled Experiment Study, and wanted to have a few taste of ....</p>    
     
             </div>
             
@@ -85,7 +85,7 @@ export default function MyReactPage() {
               <p>"....But ...but I do not want to become an outsource developer, Mr. Recruiter! Can I do something else, pleaseeee! " 🥹🥹🥹</p>        
               <p>Ended up in Dr. Nghi Bui's AI4Code team, developed internal AI tools that can (ironically) enable even more productive and less miserable outsource developers 😂😂😂 </p>
               <p>Working under my kind-hearted and wiseful mentor, enlightener and gym bud Khanh Nghiem 😎💚</p>
-              <p>Divided my efforts into 70% for engineering ⌨️, 30% for conducting Design, Mining Research 🔬</p>
+              <p>Divided my efforts into 70% for engineering ⌨️, 30% for conducting Design and Mining Study 🔬</p>
             </div>
 
             <div className="image" style={{ width: '300px', height: '200px' }}>
@@ -97,10 +97,10 @@ export default function MyReactPage() {
           <li class="event" id="date" data-date="as an AI Engineer">
             <div>
               <h3>Building AI Coding Assistants</h3>
-              <p>Helped created Docify, an extension that allow developers to document their codes faster so that they would not be scolded by their senior colleagues 🤬</p>
-              <p>Enabled Docify to work with 10 different programming languages, and to generate docstrings/comments in 13 different human languages so that they would not be scolded by their senior Japanese colleagues 👺</p>    
-              <p>Developed CodeVista, a multi-task and not-so-friendly-but-helpful coding assistant (no, it is not Github Coplilot 🙄), who is trying its best to support the outsource bros in completing their code, fixing their bugs without going to Stackoverflow.</p>
-              <p>Forced the AI cores inside Docify and CodeVista to run faster and to serve more outsource bros by making them more NVIDIA-friendly, and by choosing the right inference library 🤗</p>
+              <p>Helped created Docify, an extension that allow developers to document their codes faster so that they would not be scolded by their senior colleagues 🤬🤬🤬</p>
+              <p>Enabled Docify to work with 10 different programming languages, and to generate docstrings/comments in 13 different human languages so that they would not be scolded by their senior Japanese colleagues 👺👺👺</p>    
+              <p>Developed CodeVista, a multi-task and not-so-friendly-but-helpful coding assistant (no, it is not Github Coplilot 🙄🙄🙄) who is trying its best to support the outsource bros in completing their code, fixing their bugs without going to Stackoverflow.</p>
+              <p>Forced the AI cores inside Docify and CodeVista to run faster and to serve more outsource bros by making them more NVIDIA-friendly, and by choosing the right inference library 🤗🤗🤗</p>
             </div>
             <div className='icon'>
               <img src="/img/codevista.png"></img>
@@ -112,8 +112,9 @@ export default function MyReactPage() {
 
           <li class="event" id="date" data-date="as an AI Researcher">
             <div>
-              <h3>EMNLP 2023</h3>
-              <p>"We can be all things to Squarespace users!" 📣</p>    
+              <h3>EMNLP 2023, December</h3>
+              <p>Co-wrote with Dung Nguyen the Codetext Parser library which was used to mine a greate bunch of open-source repositories, and to extract 43 million pairs of code-comment, creating "The Vault" 🗄️🗄️</p>    
+              <p>"The Vault" not only helped trained better LLMs for code understanding and generation tasks, but also won us a trip to Singapore and free buffet in Sentosa, just for presenting our empirical findings of what have been documented in the paper  🇸🇬🇸🇬 (Wow! Can't tell how much I love the extravegant top-tier conferences)</p>    
             </div>
             <div className='icon'>
               <img src="/img/the-vault.png"></img>
@@ -126,27 +127,30 @@ export default function MyReactPage() {
           <li class="event" data-date="April 2024">
             <div>
               <h3>ICSE 2024</h3>
-              <p>Attended the 46th International Conference on Software Engineering 📣</p>
-              <p>Presented at the 1st ACM/IEEE Workshop on IDEs hosted by JetBrains 📣</p>
-              <p>Our position paper {''}
+              <p>Attended the 46th International Conference on Software Engineering in Lisbon📣</p>
+              <p>Presented a Design Study at the 1st ACM/IEEE Workshop on IDEs hosted by JetBrains, with the lessons learned from the development of CodeVista and Docify as our main research objects 📣</p>
+              <p>That position paper was named {''}
                 <span
                   className="link"
                   onClick={() =>
                     window.location.href = 'https://dl.acm.org/doi/10.1145/3643796.3648467'
                   }
                 >
-                  "Envisioning the Next-Generation AI Coding Assistants: Insights & Proposals" won the Best Paper Award
+                  "Envisioning the Next-Generation AI Coding Assistants: Insights & Proposals", and won the Best Paper Award.
                 </span>{''} 📣</p>
+              <p>Got another free dinner, but more importantly, met a lot more of big names in the field: Boris Bokowski from Google, Prof. Arie van Deursen from TU Delft, and Prof Earl Barr from UCL</p>
+              <p>Realized my personal knowledge gap in academic research, particularly in Emprical Software Research, which led to the decision of ....... </p>
             </div>
             <div className='icon'>
               <img src="/img/icse-2.jpg"></img>
             </div>
           </li>
 
-
-          going back to the academia ....
-          {/* BREAK */}
           <li class="event" id="date" data-date="">
+            <div>
+              <h3>COMING BACK TO THE ACADEMIA 😇😇😇 ....
+              </h3>
+            </div> */
 
           </li>
           
@@ -201,7 +205,7 @@ export default function MyReactPage() {
                       
               {/* <p><strong>Our success can be measured by lives and brands enhanced by 9+ years of 100% Squarespace-focused service!</strong></p> */}
               
-              <p><a href="https://www.squareflair.com">My Full CV</a></p>
+              <p><a href="https://www.squareflair.com">Click here for the more tedious version of the above story a.k.a My Full CV</a></p>
             </div>
             {/* <div className='icon'>
               <img src="https://cdn.pixabay.com/photo/2024/03/31/02/11/python-8665904_1280.png"></img>
