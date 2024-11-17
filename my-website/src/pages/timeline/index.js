@@ -40,10 +40,10 @@ export default function MyReactPage() {
               <p>Came back to HUST for finishing up my thesis</p>
               <p>Research Assistant at IVSR Lab under Dr. Anh Quang Nguyen (a die-hard fan of Man United 🔱👹🏴󠁧󠁢󠁥󠁮󠁧󠁿) </p>
               <p>Integrated neural nets into navigation and control softwares embedded on delivery UAVs (Yay, Uber Eats Airline! 🍗🍟) </p>
-              <p>Published a couple of papers under guidance from supportive mentors in Austria, Denmark and Japan</p>
+              <p>Published a couple of papers under guidance from supportive mentors in 🇦🇹, 🇩🇰 and 🇯🇵</p>
               <p>Tried to create racing drones that can go fully auto-pilot ... </p>    
               <p>... but end up leaving the project to my entrusted brother Dung Tran 😅</p>
-              <p>... as I was bored of controlled experiment research, and wanted to have a few taste of ....</p>    
+              <p>... as I was bored of Controlled Experiment Research, and wanted to have a few taste of ....</p>    
     
             </div>
             
@@ -80,8 +80,12 @@ export default function MyReactPage() {
           {/* FPT Software */}
           <li class="event" id="date" data-date="2022">
             <div>
-              <h3>FPT Software AI Center</h3>
-              <p>"We can be all things to Squarespace users!" 📣</p>    
+              <h3>AI4Code Team, FPT Software AI Center</h3>
+              <p>Landed my first job at the biggest and baddest software outsourcing company in Vietnam!</p>
+              <p>"....But ...but I do not want to become an outsource developer, Mr. Recruiter! Can I do something else, pleaseeee! " 🥹🥹🥹</p>        
+              <p>Ended up in Dr. Nghi Bui's AI4Code team, developed internal AI tools that can (ironically) enable even more productive and less miserable outsource developers 😂😂😂 </p>
+              <p>Working under my kind-hearted and wiseful mentor, enlightener and gym bud Khanh Nghiem 😎💚</p>
+              <p>Divided my efforts into 70% for engineering ⌨️, 30% for conducting Design, Mining Research 🔬</p>
             </div>
 
             <div className="image" style={{ width: '300px', height: '200px' }}>
@@ -90,10 +94,10 @@ export default function MyReactPage() {
 
           </li>
 
-          <li class="event" id="date" data-date="">
+          <li class="event" id="date" data-date="as an AI Engineer">
             <div>
               <h3>Building AI Coding Assistants</h3>
-              <p>"We can be all things to Squarespace users!" 📣</p>    
+              <p>Helped created Docify, an extension that allow developers to document their codes faster so that they would not be scolded by their senior colleagues </p>    
             </div>
             <div className='icon'>
               <img src="/img/codevista.png"></img>
@@ -103,7 +107,7 @@ export default function MyReactPage() {
             </div>
           </li>
 
-          <li class="event" id="date" data-date="2023">
+          <li class="event" id="date" data-date="as an AI Researcher">
             <div>
               <h3>EMNLP 2023</h3>
               <p>"We can be all things to Squarespace users!" 📣</p>    
