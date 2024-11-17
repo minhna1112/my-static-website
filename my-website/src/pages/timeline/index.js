@@ -97,7 +97,10 @@ export default function MyReactPage() {
           <li class="event" id="date" data-date="as an AI Engineer">
             <div>
               <h3>Building AI Coding Assistants</h3>
-              <p>Helped created Docify, an extension that allow developers to document their codes faster so that they would not be scolded by their senior colleagues </p>    
+              <p>Helped created Docify, an extension that allow developers to document their codes faster so that they would not be scolded by their senior colleagues 🤬</p>
+              <p>Enabled Docify to work with 10 different programming languages, and to generate docstrings/comments in 13 different human languages so that they would not be scolded by their senior Japanese colleagues 👺</p>    
+              <p>Developed CodeVista, a multi-task and not-so-friendly-but-helpful coding assistant (no, it is not Github Coplilot 🙄), who is trying its best to support the outsource bros in completing their code, fixing their bugs without going to Stackoverflow.</p>
+              <p>Forced the AI cores inside Docify and CodeVista to run faster and to serve more outsource bros by making them more NVIDIA-friendly, and by choosing the right inference library 🤗</p>
             </div>
             <div className='icon'>
               <img src="/img/codevista.png"></img>
