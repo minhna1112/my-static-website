@@ -5,9 +5,122 @@ export default function MyReactPage() {
   return (
     <Layout>
       <div id="timeline-content">
-        <h1>My Path So Far ....</h1>
+        <h1>My Story So Far ....</h1>
 
         <ul class="timeline">
+
+          {/* TUM */}
+          <li class="event" id="date" data-date="2019">
+            <div>
+              <h3>Training NNs for Robotics</h3>
+              <p>"We can be all things to Squarespace users!" 📣</p>    
+            </div>
+            <div className='icon'>
+              <img src="/img/tum-1.png"></img>
+            </div>
+          </li>
+
+          
+          {/* `{HUST}` */}
+          <li class="event" id="date" data-date="2020">
+            <div>
+              <h3>Autonomous Drones</h3>
+              <p>"We can be all things to Squarespace users!" 📣</p>    
+            </div>
+            <div className='icon'>
+              <img src="/img/airlab.png"></img>
+            </div>
+          </li>
+          <li class="event" id="date" data-date="">
+            <div>
+              <h3>Training NNs for Robotics</h3>
+              <p>"We can be all things to Squarespace users!" 📣</p>    
+            </div>
+            <div className='icon'>
+              <img src="/img/tugraz.png"></img>
+            </div>
+          </li>
+          <li class="event" id="date" data-date="">
+            <div>
+              <h3>Training NNs for Robotics</h3>
+              <p>"We can be all things to Squarespace users!" 📣</p>    
+            </div>
+            <div className='icon'>
+              <img src="/img/hust-1.png"></img>
+            </div>
+          </li>
+          <li class="event" id="date" data-date="2019">
+            <div>
+              <h3>Training NNs for Robotics</h3>
+              <p>"We can be all things to Squarespace users!" 📣</p>    
+            </div>
+            <div className='icon'>
+              <img src="/img/ritsumeikan-1.png"></img>
+            </div>
+          </li>
+          
+          {/* FPT Software */}
+          <li class="event" id="date" data-date="2022">
+            <div>
+              <h3>FPT Software AI Center</h3>
+              <p>"We can be all things to Squarespace users!" 📣</p>    
+            </div>
+
+            <div className="image" style={{ width: '300px', height: '200px' }}>
+              <img src="/img/aic.png" style={{ width: '100%', height: 'auto' }} />
+            </div>
+
+          </li>
+
+          <li class="event" id="date" data-date="">
+            <div>
+              <h3>Building AI Coding Assistants</h3>
+              <p>"We can be all things to Squarespace users!" 📣</p>    
+            </div>
+            <div className='icon'>
+              <img src="/img/codevista.png"></img>
+            </div>
+            <div className='icon'>
+              <img src="/img/docify.png"></img>
+            </div>
+          </li>
+
+          <li class="event" id="date" data-date="2023">
+            <div>
+              <h3>EMNLP 2023</h3>
+              <p>"We can be all things to Squarespace users!" 📣</p>    
+            </div>
+            <div className='icon'>
+              <img src="/img/the-vault.png"></img>
+            </div>
+            <div className='icon'>
+              <img src="/img/codetext_logo.png"></img>
+            </div>
+          </li>
+
+          <li class="event" data-date="April 2024">
+            <div>
+              <h3>ICSE 2024</h3>
+              <p>Attended the 46th International Conference on Software Engineering 📣</p>
+              <p>Presented at the 1st ACM/IEEE Workshop on IDEs hosted by JetBrains 📣</p>
+              <p>Our position paper {''}
+                <span
+                  className="link"
+                  onClick={() =>
+                    window.location.href = 'https://dl.acm.org/doi/10.1145/3643796.3648467'
+                  }
+                >
+                  "Envisioning the Next-Generation AI Coding Assistants: Insights & Proposals" won the Best Paper Award
+                </span>{''} 📣</p>
+            </div>
+            <div className='icon'>
+              <img src="/img/icse-2.jpg"></img>
+            </div>
+          </li>
+
+          
+
+          {/* DUBLIN */}
           <li class="event" data-date="September 2024">
             <div>
               <h3>Started my PhD at University College Dublin</h3>
@@ -46,110 +159,6 @@ export default function MyReactPage() {
             </div>
           </li>
 
-          <li class="event" data-date="April 2024">
-            <div>
-              <h3>ICSE 2024</h3>
-              <p>Attended the 46th International Conference on Software Engineering 📣</p>
-              <p>Presented at the 1st ACM/IEEE Workshop on IDEs hosted by JetBrains 📣</p>
-              <p>Our position paper {''}
-                <span
-                  className="link"
-                  onClick={() =>
-                    window.location.href = 'https://dl.acm.org/doi/10.1145/3643796.3648467'
-                  }
-                >
-                  "Envisioning the Next-Generation AI Coding Assistants: Insights & Proposals" won the Best Paper Award
-                </span>{''} 📣</p>
-            </div>
-            <div className='icon'>
-              <img src="/img/icse-2.jpg"></img>
-            </div>
-          </li>
-          <li class="event" id="date" data-date="2023">
-            <div>
-              <h3>EMNLP 2023</h3>
-              <p>"We can be all things to Squarespace users!" 📣</p>    
-            </div>
-            <div className='icon'>
-              <img src="/img/the-vault.png"></img>
-            </div>
-          </li>
-          <li class="event" id="date" data-date="">
-            <div>
-              <h3>CodeVista</h3>
-              <p>"We can be all things to Squarespace users!" 📣</p>    
-            </div>
-            <div className='icon'>
-              <img src="/img/codevista.png"></img>
-            </div>
-          </li>
-
-          <li class="event" id="date" data-date="2022">
-            <div>
-              <h3>Docify AI</h3>
-              <p>"We can be all things to Squarespace users!" 📣</p>    
-            </div>
-            <div className='icon'>
-              <img src="/img/docify.png"></img>
-            </div>
-          </li>
-          <li class="event" id="date" data-date="">
-            <div>
-              <h3>CodeVista</h3>
-              <p>"We can be all things to Squarespace users!" 📣</p>    
-            </div>
-            <div className='icon'>
-              <img src="/img/codetext_logo.png"></img>
-            </div>
-          </li>
-          
-          <li class="event" id="date" data-date="2020">
-            <div>
-              <h3>Autonomous Drones</h3>
-              <p>"We can be all things to Squarespace users!" 📣</p>    
-            </div>
-            <div className='icon'>
-              <img src="/img/airlab.png"></img>
-            </div>
-          </li>
-          <li class="event" id="date" data-date="">
-            <div>
-              <h3>Training NNs for Robotics</h3>
-              <p>"We can be all things to Squarespace users!" 📣</p>    
-            </div>
-            <div className='icon'>
-              <img src="/img/tugraz.png"></img>
-            </div>
-          </li>
-          <li class="event" id="date" data-date="">
-            <div>
-              <h3>Training NNs for Robotics</h3>
-              <p>"We can be all things to Squarespace users!" 📣</p>    
-            </div>
-            <div className='icon'>
-              <img src="/img/hust-1.png"></img>
-            </div>
-          </li>
-          <li class="event" id="date" data-date="2019">
-            <div>
-              <h3>Training NNs for Robotics</h3>
-              <p>"We can be all things to Squarespace users!" 📣</p>    
-            </div>
-            <div className='icon'>
-              <img src="/img/ritsumeikan-1.png"></img>
-            </div>
-          </li>
-          <li class="event" id="date" data-date="2019">
-            <div>
-              <h3>Training NNs for Robotics</h3>
-              <p>"We can be all things to Squarespace users!" 📣</p>    
-            </div>
-            <div className='icon'>
-              <img src="/img/tum-1.png"></img>
-            </div>
-          </li>
-
-          
 
           <li class="event" data-date="">
             
