@@ -84,7 +84,7 @@ export default function MyReactPage() {
               <p>Landed my first job at the biggest and baddest software outsourcing company in Vietnam!</p>
               <p>"....But ...but I do not want to become an outsource developer, Mr. Recruiter! Can I do something else, pleaseeee! " 🥹🥹🥹</p>        
               <p>Ended up in Dr. Nghi Bui's AI4Code team, developed internal AI tools that can (ironically) enable even more productive and less miserable outsource developers 😂😂😂 </p>
-              <p>Working under my kind-hearted and wiseful mentor, enlightener and gym bud Khanh Nghiem 😎💚</p>
+              <p>Worked under my kind-hearted and wiseful mentor, enlightener and gym bud Khanh Nghiem 😎💚</p>
               <p>Divided my efforts into 70% for engineering ⌨️, 30% for conducting Design and Mining Study 🔬</p>
             </div>
 
@@ -127,7 +127,7 @@ export default function MyReactPage() {
           <li class="event" data-date="April 2024">
             <div>
               <h3>ICSE 2024</h3>
-              <p>Attended the 46th International Conference on Software Engineering in Lisbon📣</p>
+              <p>Attended the 46th International Conference on Software Engineering in Lisbon🇵🇹</p>
               <p>Presented a Design Study at the 1st ACM/IEEE Workshop on IDEs hosted by JetBrains, with the lessons learned from the development of CodeVista and Docify as our main research objects 📣</p>
               <p>That position paper was named {''}
                 <span
@@ -136,9 +136,9 @@ export default function MyReactPage() {
                     window.location.href = 'https://dl.acm.org/doi/10.1145/3643796.3648467'
                   }
                 >
-                  "Envisioning the Next-Generation AI Coding Assistants: Insights & Proposals", and won the Best Paper Award.
+                  "Envisioning the Next-Generation AI Coding Assistants: Insights & Proposals", and won the Best Paper Award. 🎉🎉🎉
                 </span>{''} 📣</p>
-              <p>Got another free dinner, but more importantly, met a lot more of big names in the field: Boris Bokowski from Google, Prof. Arie van Deursen from TU Delft, and Prof Earl Barr from UCL</p>
+              <p>Got another free dinner, but more importantly, met a lot more of big names in the field: Boris Bokowski from Google 🇩🇪, Prof. Arie van Deursen from TU Delft 🇳🇱, and Prof. Earl Barr from UCL 🇬🇧</p>
               <p>Realized my personal knowledge gap in academic research, particularly in Emprical Software Research, which led to the decision of ....... </p>
             </div>
             <div className='icon'>
@@ -158,8 +158,7 @@ export default function MyReactPage() {
           {/* DUBLIN */}
           <li class="event" data-date="September 2024">
             <div>
-              <h3>Started my PhD at University College Dublin</h3>
-              <p>Back to academia 🎓</p>
+              <h3>Started my PhD at University College Dublin 🎓</h3>
               <p>
                 Supervised by{' '}
                 <span
@@ -179,21 +178,31 @@ export default function MyReactPage() {
                 >
                   Dr. Alzubair Hassan
                 </span>
-              </p>            </div>
+              </p>
+              <p>Majoring in Computer Science</p>  
+              </div>
             <div className='icon'>
               <img src="/img/ucd-2.png"></img>
             </div>
             <div>
               <h3>Researcher at LERO </h3>
-              <p>The SFI Research Centre for Software</p>
-              <p>Ivestigating the association between AI and Software Security</p>
-
+              <p>The SFI Research Centre for Software 🇮🇪</p>
+              <p>Investigating the association between AI and Software Security</p>
+              
             </div>
             <div className='icon'>
               <img src="/img/lero_centre_logo.jpeg"></img>
             </div>
           </li>
-
+          <li class="event" data-date="">
+            <div>
+            <h3>My Research Goals </h3>
+            <p>Exploring the current and future roles of AI in handling security vulnerabilities hidden inside user's codebase</p>
+            <p>Steering the goody AI Coding Assistants 😇 (maybe not Copilot) so that they do not violate my bros security when operating from their favorite IDEs </p>
+            <p>"I felt a great disturbance in the Force, as if millions of vulnerabilities suddenly found when applying this AI-generated code" - Obi-Wan Gepeti. Teaching LLMs to generate secure codes and hold accountability for insecured ones </p>  
+            </div>
+          </li>
+              
 
           <li class="event" data-date="">
             
