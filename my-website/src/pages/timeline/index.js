@@ -14,7 +14,7 @@ export default function MyReactPage() {
             
           <div>
               <h3>Hanoi University of Science and Technology</h3>
-              <p>Spent my Bachelor years at HUST 👨🏻‍🎓🇻🇳</p>
+              <p>Spent my naive, peaceful Bachelor years at HUST 👨🏻‍🎓🇻🇳</p>
               <p>Majoring in Electronics and Telecommunication Engineering 📐 </p>    
             </div>
             <div className='icon'>
@@ -23,9 +23,9 @@ export default function MyReactPage() {
             
             <div>
               <h3>Technical University Munich</h3>
-              <p> European Union’s Erasmus+ scholarship 🇩🇪 </p>
-              <p> 2-semester exchange at the School of Informatics and School of ECE 🥨 </p>
-              <p> Got fascinated with AI and DL 👾</p>    
+              <p> Got EU Erasmus+ scholarship (big one 💰) to study in Germany 🇩🇪 </p>
+              <p> 2 semesters having pretzels as breakfast at the School of Informatics 🥨 </p>
+              <p> Got fascinated with DL and Computer Vision (so hypeeeed in 2019  👾)</p>    
             </div>
             <div className='icon'>
               <img src="/img/tum-1.png"></img>
@@ -37,7 +37,14 @@ export default function MyReactPage() {
           <li class="event" id="date" data-date="2020">
             <div>
               <h3>Autonomous Drones</h3>
-              <p>"We can be all things to Squarespace users!" 📣</p>    
+              <p>Came back to HUST for finishing up my thesis</p>
+              <p>Research Assistant at IVSR Lab under Dr. Anh Quang Nguyen (a die-hard fan of Man United 🔱👹🏴󠁧󠁢󠁥󠁮󠁧󠁿) </p>
+              <p>Integrated neural nets into navigation and control softwares embedded on delivery UAVs (Yay, Uber Eats Airline! 🍗🍟) </p>
+              <p>Published a couple of papers under guidance from supportive mentors in Austria, Denmark and Japan</p>
+              <p>Tried to create racing drones that can go fully auto-pilot ... </p>    
+              <p>... but end up leaving the project to my entrusted brother Dung Tran 😅</p>
+              <p>... as I was bored of controlled experiment research, and wanted to have a few taste of ....</p>    
+    
             </div>
             
             <div className='icon'>
@@ -47,19 +54,20 @@ export default function MyReactPage() {
             <div className='icon'>
               <img src="/img/airlab.png"></img>
             </div>
-
+          
             <div className='icon'>
               <img src="/img/ritsumeikan-1.png"></img>
             </div>
           </li>
           {/* </li> */}
-          {/* <li class="event" id="date" data-date="">
+          {/* BREAK */}
+          <li class="event" id="date" data-date="">
             <div>
-              <h3>Training NNs for Robotics</h3>
-              <p>"We can be all things to Squarespace users!" 📣</p>    
-            </div> */}
+              <h3>GOING INTO THE INDUSTRY 😈😈😈....
+              </h3>
+            </div> */
 
-          {/* </li> */}
+          </li>
 
           {/* <li class="event" id="date" data-date="2019"> */}
             {/* <div> */}
@@ -67,11 +75,7 @@ export default function MyReactPage() {
               {/* <p>"We can be all things to Squarespace users!" 📣</p>     */}
             {/* </div> */}
             
-          going into the industry ....
-          {/* BREAK */}
-          <li class="event" id="date" data-date="">
-
-          </li>
+          
 
           {/* FPT Software */}
           <li class="event" id="date" data-date="2022">
