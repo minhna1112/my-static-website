@@ -11,6 +11,15 @@ export default function MyReactPage() {
 
           {/* TUM */}
           <li class="event" id="date" data-date="2019">
+            
+          <div>
+              <h3>Training NNs for Robotics</h3>
+              <p>"We can be all things to Squarespace users!" 📣</p>    
+            </div>
+            <div className='icon'>
+              <img src="/img/hust-1.png"></img>
+            </div>
+            
             <div>
               <h3>Training NNs for Robotics</h3>
               <p>"We can be all things to Squarespace users!" 📣</p>    
@@ -21,44 +30,46 @@ export default function MyReactPage() {
           </li>
 
           
-          {/* `{HUST}` */}
+          {/* `{IVSR}` */}
           <li class="event" id="date" data-date="2020">
             <div>
               <h3>Autonomous Drones</h3>
               <p>"We can be all things to Squarespace users!" 📣</p>    
             </div>
-            <div className='icon'>
-              <img src="/img/airlab.png"></img>
-            </div>
-          </li>
-          <li class="event" id="date" data-date="">
-            <div>
-              <h3>Training NNs for Robotics</h3>
-              <p>"We can be all things to Squarespace users!" 📣</p>    
-            </div>
+            
             <div className='icon'>
               <img src="/img/tugraz.png"></img>
             </div>
-          </li>
-          <li class="event" id="date" data-date="">
-            <div>
-              <h3>Training NNs for Robotics</h3>
-              <p>"We can be all things to Squarespace users!" 📣</p>    
-            </div>
+
             <div className='icon'>
-              <img src="/img/hust-1.png"></img>
+              <img src="/img/airlab.png"></img>
             </div>
-          </li>
-          <li class="event" id="date" data-date="2019">
-            <div>
-              <h3>Training NNs for Robotics</h3>
-              <p>"We can be all things to Squarespace users!" 📣</p>    
-            </div>
+
             <div className='icon'>
               <img src="/img/ritsumeikan-1.png"></img>
             </div>
           </li>
-          
+          {/* </li> */}
+          {/* <li class="event" id="date" data-date="">
+            <div>
+              <h3>Training NNs for Robotics</h3>
+              <p>"We can be all things to Squarespace users!" 📣</p>    
+            </div> */}
+
+          {/* </li> */}
+
+          {/* <li class="event" id="date" data-date="2019"> */}
+            {/* <div> */}
+              {/* <h3>Training NNs for Robotics</h3> */}
+              {/* <p>"We can be all things to Squarespace users!" 📣</p>     */}
+            {/* </div> */}
+            
+          going into the industry ....
+          {/* BREAK */}
+          <li class="event" id="date" data-date="">
+
+          </li>
+
           {/* FPT Software */}
           <li class="event" id="date" data-date="2022">
             <div>
@@ -118,6 +129,12 @@ export default function MyReactPage() {
             </div>
           </li>
 
+
+          going back to the academia ....
+          {/* BREAK */}
+          <li class="event" id="date" data-date="">
+
+          </li>
           
 
           {/* DUBLIN */}
