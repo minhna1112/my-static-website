@@ -10,19 +10,22 @@ export default function MyReactPage() {
         <ul class="timeline">
 
           {/* TUM */}
-          <li class="event" id="date" data-date="2019">
+          <li class="event" id="date" data-date="2017">
             
           <div>
-              <h3>Training NNs for Robotics</h3>
-              <p>"We can be all things to Squarespace users!" 📣</p>    
+              <h3>Hanoi University of Science and Technology</h3>
+              <p>Spent my Bachelor years at HUST 👨🏻‍🎓🇻🇳</p>
+              <p>Majoring in Electronics and Telecommunication Engineering 📐 </p>    
             </div>
             <div className='icon'>
               <img src="/img/hust-1.png"></img>
             </div>
             
             <div>
-              <h3>Training NNs for Robotics</h3>
-              <p>"We can be all things to Squarespace users!" 📣</p>    
+              <h3>Technical University Munich</h3>
+              <p> European Union’s Erasmus+ scholarship 🇩🇪 </p>
+              <p> 2-semester exchange at the School of Informatics and School of ECE 🥨 </p>
+              <p> Got fascinated with AI and DL 👾</p>    
             </div>
             <div className='icon'>
               <img src="/img/tum-1.png"></img>
