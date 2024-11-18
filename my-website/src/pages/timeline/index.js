@@ -138,7 +138,7 @@ export default function MyReactPage() {
                 >
                   "Envisioning the Next-Generation AI Coding Assistants: Insights & Proposals", and won the Best Paper Award. 🎉🎉🎉
                 </span>{''} 📣</p>
-              <p>Got another free dinner, but more importantly, met a lot more of big names in the field: Boris Bokowski from Google 🇩🇪, Prof. Arie van Deursen from TU Delft 🇳🇱, and Prof. Earl Barr from UCL 🇬🇧</p>
+              <p>Got another free dinner (Thank you, Jetbrains), but more importantly, met a lot more of big names in the field: Boris Bokowski from Google 🇩🇪, Prof. Arie van Deursen from TU Delft 🇳🇱, and Prof. Earl Barr from UCL 🇬🇧</p>
               <p>Realized my personal knowledge gap in academic research, particularly in Emprical Software Research, which led to the decision of ....... </p>
             </div>
             <div className='icon'>
@@ -214,7 +214,7 @@ export default function MyReactPage() {
                       
               {/* <p><strong>Our success can be measured by lives and brands enhanced by 9+ years of 100% Squarespace-focused service!</strong></p> */}
               
-              <p><a href="https://www.squareflair.com">Click here for the more tedious version of the above story a.k.a My Full CV</a></p>
+              <p><a href="/docs/cv.pdf">Click here for the more tedious version of the above story a.k.a My Full CV</a></p>
             </div>
             {/* <div className='icon'>
               <img src="https://cdn.pixabay.com/photo/2024/03/31/02/11/python-8665904_1280.png"></img>
