@@ -73,8 +73,8 @@ const config = {
           src: 'img/minh.ico',
         },
         items: [
-          {to: '/cv', label: 'CV', position: 'left'},
-          {to: '/timeline', label: 'TimeLine', position: 'left'},
+          // {to: '/cv', label: 'CV', position: 'left'},
+          {to: '/timeline', label: 'About', position: 'left'},
           {to: '/publications', label: 'Publications', position: 'left'},
           {
             type: 'docSidebar',
