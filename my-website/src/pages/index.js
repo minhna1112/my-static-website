@@ -15,6 +15,7 @@ function HomepageHeader() {
         <Heading as="h1" className="hero__title">
           {siteConfig.title}
         </Heading>
+        <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=xqcriioQ5FxJ3eMJN_2zKFUsAcGD9Jsh6QBtWtphUF8"></script>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
           <Link
