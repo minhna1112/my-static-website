@@ -9,6 +9,9 @@ authors:
 tags: [greetings]
 ---
 
+
+# Envisioning the Next-Generation AI Coding Assistants: Insights & Proposals
+
 Gonna posts a lot of stuffs here, mostly about my personal lessons learned from both academia and industry experience.
 
 If you are interested to share or collaborate with me on any posts, feel free to DM me over [LinkedIn](https://www.linkedin.com/in/anh-minh-nguyen-44016717b/) or [Twitter](https://twitter.com/MinhN2804)
