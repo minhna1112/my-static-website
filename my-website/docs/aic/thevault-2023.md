@@ -3,89 +3,12 @@ sidebar_position: 2
 ---
 
 # TheVault: A Comprehensive Multilingual Dataset for Advancing Code Understanding and Generation
+Accepted in [EMNLP 2023](https://aclanthology.org/2023.findings-emnlp.316.pdf)
+## Key Contributions
+- A dataset of 34 million high-quality code-text (comment) pairs across 10 languages.
+- Nearly 290 millions stand-alone functions in 10 languages.
+- A data cleaning pipeline using both syntatic rule-based filters and CodeBert as semantic classifier.
+- Evaluation of the dataset on common coding tasks of code generation, code summarization, and code search.
 
-
-
-[TheVault](https://nmd2k.github.io/blog/2023/the-vault/)
-Let's translate `docs/intro.md` to French.
-
-## Configure i18n
-
-Modify `docusaurus.config.js` to add support for the `fr` locale:
-
-```js title="docusaurus.config.js"
-export default {
-  i18n: {
-    defaultLocale: 'en',
-    locales: ['en', 'fr'],
-  },
-};
-```
-
-## Translate a doc
-
-Copy the `docs/intro.md` file to the `i18n/fr` folder:
-
-```bash
-mkdir -p i18n/fr/docusaurus-plugin-content-docs/current/
-
-cp docs/intro.md i18n/fr/docusaurus-plugin-content-docs/current/intro.md
-```
-
-Translate `i18n/fr/docusaurus-plugin-content-docs/current/intro.md` in French.
-
-## Start your localized site
-
-Start your site on the French locale:
-
-```bash
-npm run start -- --locale fr
-```
-
-Your localized site is accessible at [http://localhost:3000/fr/](http://localhost:3000/fr/) and the `Getting Started` page is translated.
-
-:::caution
-
-In development, you can only use one locale at a time.
-
-:::
-
-## Add a Locale Dropdown
-
-To navigate seamlessly across languages, add a locale dropdown.
-
-Modify the `docusaurus.config.js` file:
-
-```js title="docusaurus.config.js"
-export default {
-  themeConfig: {
-    navbar: {
-      items: [
-        // highlight-start
-        {
-          type: 'localeDropdown',
-        },
-        // highlight-end
-      ],
-    },
-  },
-};
-```
-
-The locale dropdown now appears in your navbar:
-
-![Locale Dropdown](./img/localeDropdown.png)
-
-## Build your localized site
-
-Build your site for a specific locale:
-
-```bash
-npm run build -- --locale fr
-```
-
-Or build your site to include all the locales at once:
-
-```bash
-npm run build
-```
+##  Details 
+A more detailed report could be found in this blog: [TheVault](https://nmd2k.github.io/blog/2023/the-vault/). Proudly created by [Dung Nguyen](https://github.com/nmd2k), one of the first authors.
