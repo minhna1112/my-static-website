@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Manage Docs Versions
+# Envisioning the Next-Generation AI Coding Assistants: Insights & Proposals
 
 Docusaurus can manage multiple versions of your docs.
 
