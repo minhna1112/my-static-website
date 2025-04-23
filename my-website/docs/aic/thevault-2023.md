@@ -11,4 +11,4 @@ Accepted in [EMNLP 2023](https://aclanthology.org/2023.findings-emnlp.316.pdf)
 - Evaluation of the dataset on common coding tasks of code generation, code summarization, and code search.
 
 ##  Details 
-A more detailed report could be found in this blog: [TheVault](https://nmd2k.github.io/blog/2023/the-vault/). Proudly created by [Dung Nguyen](https://github.com/nmd2k), one of the first authors.
+A more detailed report could be found in this blog: [TheVault](https://nmd2k.github.io/blog/2023/the-vault/) (proudly created by [Dung Nguyen](https://github.com/nmd2k), one of the first authors).
