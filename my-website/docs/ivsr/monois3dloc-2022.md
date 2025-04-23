@@ -12,5 +12,14 @@ data for training the 3D pose prediction module was generated from the simulatio
 $$
 \min_{\theta} \mathcal\{L\}(\tilde{f}_{\theta}(\tilde{x}), \tilde{y})
 $$
+- Data synthesis pipeline using a virtual camera in a simulation environment ([AirSim](https://microsoft.github.io/AirSim/)) to collect semantic masks of objects and their corresponding 3D localization information. FOV constraints are applied to ensure the validity and diversity of the 3D localization information.
 
-The variable is represented by $x$.
+![Camera position set up in AIRSIM simulation environment.
+Top figure indicates the circular trajectory of the camera based on two
+parameters: radius r and height h and set up of the initial pitch angle.
+Bottom figure demonstrates various poses of person can be collected with
+respect to each position of circular trajectory and set up of initial yaw
+angle at each point.](img/airsim_data.png)
+
+## Acknowledgments
+Special thanks to all the co-authors from [IVSR Lab](https://github.com/IVSR-SET-HUST/) and [Ritsumeikan's AIS Lab](https://github.com/ais-lab)
