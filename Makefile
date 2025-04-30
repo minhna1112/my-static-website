@@ -22,4 +22,4 @@ serve:
 
 deploy:
 	make build
-	cd my-website && yarn deploy
+	cd my-website && npm run deploy
